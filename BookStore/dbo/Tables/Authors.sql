@@ -1,0 +1,4 @@
+CREATE TABLE [dbo].[Authors]
+(
+  [Id] INT NOT NULL PRIMARY KEY
+)
