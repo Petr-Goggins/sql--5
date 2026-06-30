@@ -18,6 +18,9 @@ INSERT INTO Authors (AuthorID, FirstName, LastName) VALUES
 (2, 'Фёдор', 'Достоевский');
 
 INSERT INTO Books (BookID, Title, AuthorID, Price) VALUES
-(1, 'Война и мир', 1, 500.0),
-(2, 'Анна Каренина', 1, 450.0),
-(3, 'Преступление и наказание', 2, 400.0);
+(1, 'Война и мир', 1, 500),
+(2, 'Анна Каренина', 1, 450),
+(3, 'Преступление и наказание', 2, 400);
+
+DELETE FROM Books;
+DELETE FROM Authors;
