@@ -48,6 +48,22 @@
 				"isDefault": true
 			},
 			"detail": "Выполняет сборку проекта SQL BookStore"
+		},
+		{
+			"label": "sqlproj: Build University",
+			"type": "process",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"c:/Users/Пётр/Desktop/Дз  top python/SQL/University/University.sqlproj"
+			],
+			"problemMatcher": "$sqlproj-problem-matcher",
+			"isBackground": true,
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Выполняет сборку проекта SQL University"
 		}
 	]
 }
